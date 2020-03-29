@@ -1,0 +1,51 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+	Para trabajos que deben de hacerse en grupo, esta herramienta facilita la
+	tarea de pasar los archivos de un usuario a otro, pues asi cada usuario
+	solo debe de buscar el archivo que necesita en el repositorio, descargarlo
+	y hacer lo que deba de hacer con el.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+	Por pequeño que sea el cambio, si Git me guardara automaticamente,
+	tendria que guardar infinidad de veces, mientras que si debo de
+	hacerlo de forma manual, tengo la libertad de decidir en que punto
+	es prudente guardar, cuando en verdad valga la pena.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+	Forks se utiliza para "clonar" repositorios que se encuentran en GitHub,
+	Clones se utiliza ya sea para clonar archivos presentes en otro
+	repositorio situado en un ordenador, o para traer repositorios de GitHub
+	a tu ordenador, y Branches se utiliza para crear nuevos caminos por asi
+	decirlos en la memoria de check-points en tu repositorio local. Depende
+	de donde proceda el archivo, asi mismo utilizare Forks, Clones y Branch.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+	Uno de estos beneficios es que, por ejemplo, puedes trabajar offline si
+	lo deseas, ademas de que eres independiente de realizar los cambios
+	que desees, y luego puedes modificar tu repositorio, ya sea con un merge
+	o añadiendo alguna otra forma de infirmacion nueva.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+	Me imagino ue una opcion seria usar dirreciones de correos electronicos,
+	pero esto seria muy engorroso pues deberia de contar siempre con una
+	conexion Wi-Fi, y ademas si desease realizar un cambio en un archivo ya
+	existente realizado por alguien, el proceso de comunicacion y aceptacion
+	de este cambio seria muy tedioso, ademas de complejo debido al canal de
+	comunicacion que usariamos.
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+	Al no realizar cambios directamente en master, tengo la seguridad de que
+	no se van a presentar errores o conflictos si deseo guardar los cambios
+	realizados, ademas de tener la posibilidad de revisar la escirtura y ver
+	si vale la pena o no adicionar algunos cambios.
