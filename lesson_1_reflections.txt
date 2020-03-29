@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	Esta herramienta reduce el tiempo de comparar dos archivos en busca de
+	typo's o errores de sintaxis.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	En caso de que cometas un error al programar y no sepas en que parte se
+	encuentra este, y ya nada funciona, puedes restaurar versiones anteriores
+	del codigo y asi tener mas cuidado.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Puedes disminuir la cantidad de veces que guardas los cambios en un
+	archivo, y de esta manera en caso tal se presente un error, pues solo
+	debes de buscar la seccion relacionada con este y ver los distintos
+	cambiso que has realizado en ella. Esta puede ser un arma de doble
+	filo, pues si se tiene un mal criterio de seelcción para definir los
+	tiempos de guardado de tu programa, entonces todo se complicara aun
+	mas si se llegase a presentar un error.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	Google Doc, por ejemplo, no es una paltaforma diseñada desde un inicio
+	para la programación, por lo cual se tiene configurado como solo un
+	lugar en el cual se crean documentos que pueden difereir tanto como
+	quieran los unos de los otros. Por otro lado, GIT fue pensada para los
+	programadores, y todo buen programador divide sus proyectos por secciones,
+	donde cada una de estas se destina para una aprte distinta del programa,
+	pero se neceitan la una a la otra pues solo es necesario definir a las
+	funciones y llamar a los diferentes directorios en un solo documento y
+	luego incluir dicho documento en los demas.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	Con git log puedo ver todas las copias que han sido guardas, una con
+	modificaciones distintas a la otra, mientras que con git diff puedo
+	ver ya propiamente los cambios que hay de un check-point al otro.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	Como vimos en el apartado anterior del curso, nosotros podemos regresarnos
+	a las versiones anteriores de nuestro programa, y asi identificar en cual
+	de los diferentes check-ponits que hemos hecho se encuentra el error.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	Esta nueva herramienta que estoy aprendiendo a utilizar me servira para
+	poder trabajar de una manera mas comoda a la hora de modificar y compartir
+	archivos, accion que me facilitara en gran medida el trabajo en equipo
+	desde ubicaciones diferentes y remotas.

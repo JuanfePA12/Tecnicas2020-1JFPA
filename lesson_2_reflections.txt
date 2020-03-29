@@ -1,0 +1,59 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Hasta donde tengo entendido, al inicializar un repositorio ya
+	cuento con la opcion de realizar check-points para mis trabajos,
+	lo cual es muy util pues mejora la forma en la que programo, y
+	me genera mas confianza y seguridad al trabajar.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	En la staging area depositamos los archivos de los cuales deseamos
+	crear un check-point, mientras que en el area de trabajo o en
+	repositorio solo se encuentran archos estaticos. Ofrece un gran valor
+	y ventaja a la accion de programar.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+	Puedes chequear si te dice que el estado del documento posee cambios
+	pero no se ha realizado ningun tipo de check-point. Esto es muy util
+	pues si bien todo esta funcionando, igual puedes asegurarte y crear
+	una copia para asi en caso de un inconveniente, puedas regrear en el
+	hostorial y ver en que parte te chuleteaste.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+	Por ejemplo si deseo correr un experimento en mi codigo, pero no estoy
+	seguro si los cambios que este haga seran de mi agrado, puedo usar los
+	branches, y estos me ayudan a crear "copias independientes" en las cuales
+	yo puedo decidir que cambios o mejoras voy a llevar a cabo.
+
+How do the diagrams help you visualize the branch structure?
+
+	Me son muy utiles, pues como muchas cosas en programacion, a veces no
+	las podemos ver como un objeto palpable, sino que solo debemos de
+	creer de que eso esta pasando. Gracias a los diagramas, es mas facil
+	encontrarle un orden y sentido a las cosas, y posiblemente tambien a
+	los errores.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+	Lo que nos han explicado hasta ahora es que cada vez que utiliza la
+	funcion git log, se me mostraran todos los check-points que posean un
+	padre rastreable, pero si por algun motivo yo he creado un branch que
+	no se encuentra siendo el padre de alguno de los check-points que
+	estoy por revisar, entonces este no se mostrara y es como si nunca
+	hubiese hecho estos cambios.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+	Si Git hiciera la creacion de los nuevos nodos por su propia cuenta,
+	esto lo llevaria a tener que decidir si añadir o no algunas lineas que
+	si bien han sido cambios, describen un comportamiento distinto,
+	posiblemente de lo mismo, y no sabra cual es en verdad la que se
+	necesita; mientras que si esto se hace manuelamente, el usuario puede
+	seleccionar cual de los cambios es el que en verdad desea añadir.
