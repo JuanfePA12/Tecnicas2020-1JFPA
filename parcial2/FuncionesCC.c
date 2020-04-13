@@ -29,7 +29,7 @@ int* crearLocalesPorPiso(){
 }
 
 local** crearCentroComercial( int *pPiso , int *pLocalesPorPiso ) {
-	int i;
+	int i=0;
 	local **pMatriz;
 	pMatriz = malloc( *pPiso * sizeof( local * ) );
 	if( pMatriz != NULL ){
@@ -46,7 +46,7 @@ local** crearCentroComercial( int *pPiso , int *pLocalesPorPiso ) {
 }
 
 int** crearEstadoCentroComercial( int *pPiso , int *pLocalesPorPiso ){
-	int i;
+	int i=0;
 	int **pEstado = malloc( *pPiso * sizeof( int * ) );
 	if( pEstado != NULL ){
 		for( i=0;i<*pPiso;i++ ){
@@ -85,7 +85,7 @@ void crearNuevoLocal( local **pMatriz , int **pEstado , int *pPiso , int *pLocal
 			local tmpLocal;
 			printf( "\nIngrese el nombre del local: " );
 			fflush( stdin );
-			scanf( "%s" , &tmpLocal.nombre );
+			scanf( "%20s" , &tmpLocal.nombre );
 			mostrarClasesDeLocales();
 			printf( "\nIngrese la clase del local (numero): " );
 			fflush( stdin );
@@ -129,7 +129,7 @@ void mostrarInformacionLocal( local **pMatriz , int *pPiso , int *pLocalesPorPis
 	char buscarNombre[MAX];
 	printf( "\nIngrese el nombre del local: " );
 	fflush( stdin );
-	scanf( "%s" , &buscarNombre );
+	scanf( "%20s" , &buscarNombre );
 	for( i=0;i<*pPiso;i++ ){
 		for( j=0;j<*pLocalesPorPiso;j++ ){
 			if( strcmp( buscarNombre, pMatriz[i][j].nombre )==0 && pEstado[i][j]==1){
@@ -150,7 +150,7 @@ void eliminarLocal( local **pMatriz , int *pPiso , int *pLocalesPorPiso , int **
 	char buscarNombre[MAX];
 	printf( "\nIngrese el nombre del local: " );
 	fflush( stdin );
-	scanf( "%s" , &buscarNombre );
+	scanf( "%20s" , &buscarNombre );
 	for( i=0;i<*pPiso;i++ ){
 		for( j=0;j<*pLocalesPorPiso;j++ ){
 			if( strcmp( buscarNombre, pMatriz[i][j].nombre )==0 && pEstado[i][j]==1){
@@ -170,7 +170,7 @@ void sumarVisitas( local **pMatriz , int i , int j ){
 	char si[3] = "si";
 	printf( "Desea agregar otra visita (si o no): " );
 	fflush( stdin );
-	scanf( "%s" , &respuesta );
+	scanf( "%3s" , &respuesta );
 	if( strcmp( respuesta , si ) == 0 )
 		sumarVisitas( pMatriz , i , j );
 }
@@ -180,7 +180,7 @@ void agregarVisitas( local **pMatriz , int *pPiso , int *pLocalesPorPiso , int *
 	char buscarNombre[MAX];
 	printf( "\nIngrese el nombre del local: " );
 	fflush( stdin );
-	scanf( "%s" , &buscarNombre );
+	scanf( "%20s" , &buscarNombre );
 	for( i=0;i<*pPiso;i++ ){
 		for( j=0;j<*pLocalesPorPiso;j++ ){
 			if( strcmp( buscarNombre, pMatriz[i][j].nombre )==0 && pEstado[i][j]==1){
@@ -212,14 +212,14 @@ void modificarLocal( local **pMatriz , int *pPiso , int *pLocalesPorPiso , int *
 	char buscarNombre[MAX];
 	printf( "\nIngrese el nombre del local: " );
 	fflush( stdin );
-	scanf( "%s" , &buscarNombre );
+	scanf( "%20s" , &buscarNombre );
 	for( i=0;i<*pPiso;i++ ){
 		for( j=0;j<*pLocalesPorPiso;j++ ){
 			if( strcmp( buscarNombre, pMatriz[i][j].nombre )==0 && pEstado[i][j]==1){
 				printf( "\nNombre actual: %s" , pMatriz[i][j].nombre );
 				printf( "\nNuevo nombre: " );
 				fflush( stdin );
-				scanf( "%s" , &pMatriz[i][j].nombre );
+				scanf( "%20s" , &pMatriz[i][j].nombre );
 				mostrarClasesDeLocales();
 				printf( "\nClase actual: %d" , pMatriz[i][j].clase );
 				printf( "\nNueva clase: " );
