@@ -175,7 +175,7 @@ void mostrarMenu(){
 	int opcion = 0;
 	persona lista[12][MAX];
     	int dispo[12] = {0};
-	int suma, mes;
+	int suma, mes; // No estas usando ni suma ni mes
 	float prom;
   	do{
     		printf( "\nOpciones del menu\n" );

@@ -1,5 +1,8 @@
 #include "Virtual.h"
 
+/* Mejoraría el while(1) 
+Ojo con la identación en algunas partes. Por lo demás esta muy bn*/
+
 void agregarDia( persona lista[][MAX], int mes, int dispo[] ){
 	int dia;
 	printf( "Ingrese el dia de nacimiento\n" );
@@ -57,8 +60,8 @@ void numeroSuerte( persona lista[12][MAX] ){
     	char nombre[20];
     	printf( "Ingresa tu nombre\n" );
     	fflush( stdin );
-    	scanf( "%s" , &nombre );
-    	for( i=0;i<12;i++ ){
+    	scanf( "%s" , &nombre ); // Luisa: no necesitas el &
+    	for( i=0;i<12;i++ ){ // es mejor definir el 12 como una constante
         	for( j=0;j<MAX;j++ ){
             		if( strcmp( nombre, lista[i][j].nombre ) == 0 ){
 				num = lista[i][j].mes + 1;
