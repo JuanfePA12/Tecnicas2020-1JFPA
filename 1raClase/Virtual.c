@@ -78,7 +78,7 @@ void numeroSuerte( persona lista[12][MAX] ){
                 		printf( "Tu numero de la suerte es 23763\n" );
                 		break;
             		case ABRIL:
-                		printf( "Tu numero d ela suerte es 91735\n" );
+                		printf( "Tu numero de la suerte es 91735\n" );
                			break;
             		case MAYO:
                 		printf( "Tu numero de la suerte es 65283\n" );
