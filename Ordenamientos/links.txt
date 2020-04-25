@@ -1,0 +1,23 @@
+Introducción. Algoritmos de Ordenamiento.
+	https://www.youtube.com/watch?v=VMxkJ98pFrY
+
+Algoritmos de Ordenamiento. Función Factorial.
+	https://www.youtube.com/watch?v=zJgV3nLYtcU
+
+Quick Sort. Explicación.
+	https://www.youtube.com/watch?v=gncsNClM6m8
+
+Implementación del Algoritmo Quick Sort en Lenguaje C. Parte I.
+	https://www.youtube.com/watch?v=bTSOuazAkXw
+
+Implementación del Algoritmo Quick Sort en Lenguaje C. Parte II.
+	https://www.youtube.com/watch?v=n-tsNM8rvYg
+
+Insersción. Explicación.
+	https://www.youtube.com/watch?v=HJsW1nh9Z1o
+
+Implementación del Algoritmo Inserción en Lenguaje C. Parte I.
+	https://www.youtube.com/watch?v=3TVfKHA8KaQ
+
+Implementación del Algoritmo Quick Sort en Lenguaje C. Parte II.
+	https://www.youtube.com/watch?v=bzQ1Gk_YUm0
