@@ -1,0 +1,178 @@
+Estadísticas de los archivos y sus ordenamientos
+
+
+tallerOrd10.c
+
+	Archivo desordenado
+	Burbuja:	- Fecha de inicio: 08/05/2020 a las 13:35
+			- Fecha de fin: 08/05/2020 a las 13:35
+			- 45 Intercambios
+			- 99 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	Insertion:	- Fecha de inicio: 08/05/2020 a las 13:37
+			- Fecha de fin: 08/05/2020 a las 13:37
+			- 45 Intercambios
+			- 55 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	quickSort:	- Fecha de inicio: 08/05/2020 a las 13:40
+			- Fecha de fin: 08/05/2020 a las 13:40
+			- 11 Intercambios
+			- 12 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+
+	Archivo ordenado
+	Burbuja:	- Fecha de inicio: 08/05/2020 a las 22:00
+			- Fecha de fin: 08/05/2020 a las 22:00
+			- 0 Intercambios
+			- 99 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	Insertion:	- Fecha de inicio: 08/05/2020 a las 22:02
+			- Fecha de fin: 08/05/2020 a las 22:02
+			- 0 Intercambios
+			- 10 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	quickSort:	- Fecha de inicio: 08/05/2020 a las 22:07
+			- Fecha de fin: 08/05/2020 a las 22:07
+			- 6 Intercambios
+			- 19 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+
+tallerOrd100.c
+
+	Archivo desordenado
+	Burbuja:	- Fecha de inicio: 08/05/2020 a las 13:42
+			- Fecha de fin: 08/05/2020 a las 13:42
+			- 4950 Intercambios
+			- 9999 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	Insertion:	- Fecha de inicio: 08/05/2020 a las 13:45
+			- Fecha de fin: 08/05/2020 a las 13:45
+			- 4950 Intercambios
+			- 5050 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	quickSort:	- Fecha de inicio: 08/05/2020 a las 13:47
+			- Fecha de fin: 08/05/2020 a las 13:47
+			- 112 Intercambios
+			- 386 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+
+	Archivo ordenado
+	Burbuja:	- Fecha de inicio: 08/05/2020 a las 22:13
+			- Fecha de fin: 08/05/2020 a las 22:13
+			- 0 Intercambios
+			- 9999 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	Insertion:	- Fecha de inicio: 08/05/2020 a las 22:15
+			- Fecha de fin: 08/05/2020 a las 22:15
+			- 0 Intercambios
+			- 100 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	quickSort:	- Fecha de inicio: 08/05/2020 a las 22:20
+			- Fecha de fin: 08/05/2020 a las 22:20
+			- 63 Intercambios
+			- 480 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+
+tallerOrd1000.c
+
+	Archivo desordenado
+	Burbuja:	- Fecha de inicio: 08/05/2020 a las 13:54
+			- Fecha de fin: 08/05/2020 a las 13:54
+			- 499500 Intercambios
+			- 999999 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	Insertion:	- Fecha de inicio: 08/05/2020 a las 13:55
+			- Fecha de fin: 08/05/2020 a las 13:55
+			- 499500 Intercambios
+			- 500500 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	quickSort:	- Fecha de inicio: 08/05/2020 a las 13:58
+			- Fecha de fin: 08/05/2020 a las 13:58
+			- 1010 Intercambios
+			- 6996 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+
+	Archivo ordenado
+	Burbuja:	- Fecha de inicio: 08/05/2020 a las 22:25
+			- Fecha de fin: 08/05/2020 a las 22:25
+			- 0 Intercambios
+			- 999999 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	Insertion:	- Fecha de inicio: 08/05/2020 a las 22:25
+			- Fecha de fin: 08/05/2020 a las 22:25
+			- 0 Intercambios
+			- 1000 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	quickSort:	- Fecha de inicio: 08/05/2020 a las 22:29
+			- Fecha de fin: 08/05/2020 a las 22:29
+			- 511 Intercambios
+			- 7987 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+
+tallerOrd10000.c
+
+	Archivo desordenado
+	Burbuja:	- Fecha de inicio: 08/05/2020 a las 14:12
+			- Fecha de fin: 08/05/2020 a las 14:12
+			- 49995000 Intercambios
+			- 99999999 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	Insertion:	- Fecha de inicio: 08/05/2020 a las 14:13
+			- Fecha de fin: 08/05/2020 a las 14:13
+			- 49995000 Intercambios
+			- 50005000 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	quickSort:	- Fecha de inicio: 08/05/2020 a las 14:23
+			- Fecha de fin: 08/05/2020 a las 14:23
+			- 10904 Intercambios
+			- 103644 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+
+	Archivo ordenado
+	Burbuja:	- Fecha de inicio: 08/05/2020 a las 22:30
+			- Fecha de fin: 08/05/2020 a las 22:30
+			- 0 Intercambios
+			- 99999999 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	Insertion:	- Fecha de inicio: 08/05/2020 a las 22:33
+			- Fecha de fin: 08/05/2020 a las 22:33
+			- 0 Intercambios
+			- 10000 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+	quickSort:	- Fecha de inicio: 08/05/2020 a las 22:25
+			- Fecha de fin: 08/05/2020 a las 22:25
+			- 5904 Intercambios
+			- 113631 Comparaciones
+			- Tiempo de ordenamiento: < 1 minuto
+
+tallerOrdMax.c
+
+	Archivo desordenado
+	Burbuja:	- Fecha de inicio: 09/05/2020 a las 06:39
+			- Fecha de fin: 09/05/2020 a las 07:50
+			- 499999500000 Intercambios
+			- 999999999999 Comparaciones
+			- Tiempo de ordenamiento: > 60 minutos
+	Insertion:	- Fecha de inicio: 08/05/2020 a las 22:58
+			- Fecha de fin: 08/05/2020 a las 23:09
+			- 499999500000 Intercambios
+			- 500000500000 Comparaciones
+			- Tiempo de ordenamiento: 11 minutos
+	quickSort:	- Fecha de inicio: 09/05/2020 a las 08:36
+			- Fecha de fin: 09/05/2020 a las 08:42
+			- 742736 Intercambios
+			- 11832364 Comparaciones
+			- Tiempo de ordenamiento: 6 minutos
+
+	Archivo ordenado
+	Burbuja:	- Fecha de inicio: 09/05/2020 a las 09:00
+			- Fecha de fin: 09/05/2020 a las 10:11
+			- 0 Intercambios
+			- 999999999999 Comparaciones
+			- Tiempo de ordenamiento: > 60 minutos
+	Insertion:	- Fecha de inicio: 08/05/2020 a las 23:20
+			- Fecha de fin: 08/05/2020 a las 23:31
+			- 0 Intercambios
+			- 1000000 Comparaciones
+			- Tiempo de ordenamiento: 11 minutos
+	quickSort:	No responde
